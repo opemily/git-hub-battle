@@ -18,7 +18,7 @@ function Profile(props) {
         <li>Followers: {info.followers}</li>
         <li>Following: {info.following}</li>
         <li>Public Repos: {info.public_repos}</li>
-        {info.blog && <li><a href={info.blog}>info.blog</a></li>}
+        {info.blog && <li><a href={info.blog}>{info.blog}</a></li>}
       </ul>
     </PlayerPreview>
   )
